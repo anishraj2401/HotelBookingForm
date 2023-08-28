@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Booking Form HTML Template</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="booking-form">
+			<div class="banner">
+				<img src="banner.png" alt="Banner Image">
+			</div>
+			<div class="form-header">
+				<h2>Hotel Booking</h2>
+			</div>
+			<form id="bookingForm">
+				<div class="form-group">
+					<span class="form-label">Name</span>
+					<input class="form-control" type="text" id="name" name="name" placeholder="Enter your name"
+						required>
+				</div>
+
+				<div class="form-group">
+					<span class="form-label">Phone</span>
+					<input class="form-control" type="tel" placeholder="Enter your phone number">
+				</div>
+
+				<div class="form-group">
+					<span for="checkInDate" class="form-label">Check In</span>
+					<input class="form-control" type="date" id="checkInDate" required>
+				</div>
+
+				<div class="form-group">
+					<span for="totalDays" class="form-label">Total No of Days:</span>
+					<input class="form-control" type="number" id="totalDays" name="guests" min="1"
+						placeholder="Enter number of persons" required>
+				</div>
+
+				<div class="form-group">
+					<span for="totalPersons" class="form-label">Total No of Persons:</span>
+					<input class="form-control" type="number" id="totalPersons" name="guests" min="1"
+						placeholder="Enter number of days" required>
+				</div>
+
+				<div class="form-group">
+					<span for="roomType" class="form-label">Room Type: </span>
+					<select class="form-control" id="roomType" style="color: #dde3e8;"
+						onchange="updateSelectColor(this)">
+						<option value="disabled selected">Select room type...</option>
+						<option value="delux">Deluxe Room</option>
+						<option value="suite">Suite Room</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<span for="amenities" class="form-label">Amenities:</span>
+					<select class="form-control" id="amenities" style="color: #dde3e8;"
+						onchange="updateSelectColor(this)">
+						<option value="" disabled selected>Select amenities...</option>
+						<option value="ac">AC</option>
+						<option value="locker">Locker</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<span for="advanceAmount" class="form-label">Advance Amount:</span>
+					<input class="form-control" type="number" id="advanceAmount" placeholder="Enter advance amount"
+						required>
+				</div>
+
+				<div class="form-btn">
+					<button class="submit-btn">Submit</button>
+				</div>
+
+				<div class="cost-section">
+					<p>Room Cost: <span id="totalRoomCost">0</span></p>
+					<p>Amenities Cost: <span id="totalAmenitiesCost">0</span></p>
+				</div>
+				<div class="cost-section">
+					<p>Total Cost: <span id="totalCost">0</span></p>
+					<p>Balance: <span id="balance">0</span></p>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 0;
+	background: linear-gradient(135deg, #70b1d7, #4880c7);
+	height: 100%;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+}
+
+.banner {
+	position: relative;
+	text-align: center;
+	padding: 0;
+}
+
+.banner img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.form-header {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.booking-form {
+	position: relative;
+	max-width: 642px;
+	width: 100%;
+	margin: auto;
+	background: #ffffff;
+	box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.booking-form form {
+	padding: 40px;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.form-label {
+	color: #000000;
+	font-weight: 505;
+	transition: 0.2s;
+	line-height: 24px;
+	font-size: 14px;
+	flex: 1;
+	margin-right: 20px;
+}
+
+.form-control {
+	background-color: #f7f9fa;
+	height: 40px;
+	padding: 0px 10px;
+	border-radius: 8px;
+	transition: 0.2s;
+	color: #122244;
+	border: none;
+	font-size: 16px;
+	font-weight: 700;
+	box-shadow: inset 0 1px 4px rgba(181, 193, 204, 0.3);
+	flex: 2;
+}
+
+.form-control::placeholder {
+	color: #dde3e8;
+}
+
+.form-control:focus {
+	box-shadow: inset 0 1px 4px rgba(181, 193, 204, 0.3);
+	outline: none;
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: #dde3e8;
+}
+
+.form-btn {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.submit-btn {
+	color: #fff;
+	background-color: #6499ff;
+	font-weight: 500;
+	padding: 12px 0px;
+	font-size: 16px;
+	border: none;
+	border-radius: 8px;
+	width: 35%;
+	cursor: pointer;
+}
+
+.total-cost {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.cost-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.cost-section p {
+	font-size: 15px;
+	font-weight: 501;
+	color: #122244;
+	margin: 0;
+}
+
+.cost-section #balance {
+	color: #6499ff;
+}
+
+@media only screen and (max-width: 480px) {
+	.booking-form {
+		box-shadow: none;
+		padding: 0;
+		border-radius: 0;
+		margin: 0;
+	}
+}
