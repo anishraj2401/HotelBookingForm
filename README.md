@@ -42,6 +42,6 @@ mandatory fields.
 - The Balance field should display the remaining balance after deducting the advance amount .
 
 *Deployment
-**Host the website** at 000webhost, github.io,Netlify, heroku app or any other free
+*Host the website* at 000webhost, github.io,Netlify, heroku app or any other free
 hosting provider. Check in code in gitlab.
 **For App** - Upload video demo of your application on youtube and submit the url.
