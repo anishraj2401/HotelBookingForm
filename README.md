@@ -14,7 +14,7 @@ Calculate total costs based on room type, amenities, number of persons, and stay
 View advance payment, total cost, and balance automatically without confusion.
 This form ensures customers have a seamless and transparent booking experience! ✨
 
-Want to see how your tweet will score? https://hotel-booking-form-ruddy.vercel.app/
+Want to see how our form will work? https://hotel-booking-form-ruddy.vercel.app/
 
 ⚙️ How to Run Locally
 Clone the repository:
