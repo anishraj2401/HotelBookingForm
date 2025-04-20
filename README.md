@@ -1,47 +1,28 @@
+**🏨 Hotel Booking Registration Form**
 
-This GitHub repository contains a comprehensive hotel booking registration form designed using HTML, CSS, and JavaScript. The purpose of this project is to create a user-friendly form that allows users to input their booking details and calculate the total cost of their stay.
+Welcome to the official GitHub repository for the Hotel Booking Registration Form — a complete, user-friendly form designed to simplify the hotel room booking process using HTML, CSS, and JavaScript.
 
-**Task: Hotel Booking Registration Form**
+"Convenience and clarity are the keys to great hospitality."
+~ Anish
 
-- Customer Name: [Text Input]
-- Check-in Date: [Date Input]
-- Total No of Days: [Number Input]
-- Total No of Persons: [Number Input]
+**About the Project**
 
-*Room Information
-- Room Type: [Select Input - Delux Room, Suite Room]
-- Amenities: [Select Input - AC, Locker]
+This project allows users to:
 
-*Room Rates
-- Delux Room:2500/-
-- Suite Room: 4000/-
-- AC: 1000/-
-- Locker: 300/-
+Book hotel rooms by filling out a detailed registration form.
+Calculate total costs based on room type, amenities, number of persons, and stay duration.
+View advance payment, total cost, and balance automatically without confusion.
+This form ensures customers have a seamless and transparent booking experience! ✨
 
-*Advance Payment
-- Advance Amount: [Number Input]
-  
-*Balance Amount
-- Balance: [Automatically Calculated Field - Total Amount - Advance Amount]
-
-*Total Cost Calculation
-- Total Room Cost: [Automatically Calculated Field - Room Rate * Total No of Days]
-- Total Amenities Cost: [Automatically Calculated Field - Amenities Cost * Total No of
-Days]
-- Total Cost: [Automatically Calculated Field - Total Room Cost + Total Amenities Cost]
-
-*Additional Charges
-- Upto 2 People: No Change in Cost
-- Per Day Cost for Extra Person: 1000/-
-
-*Please Note
-- Customer Name, Check-in Date, Total No of Days, Total No of Persons are
-mandatory fields.
-- Advance Amount is mandatory.
-- The Total field should display the calculated total cost.
-- The Balance field should display the remaining balance after deducting the advance amount .
+⚙️ How to Run Locally
+Clone the repository:
 
 *Deployment
-*Host the website* at 000webhost, github.io,Netlify, heroku app or any other free
-hosting provider. Check in code in gitlab.
-**For App** - Upload video demo of your application on youtube and submit the url.
+Clone the repository:
+
+git clone https://github.com/anishraj2401/HotelBookingForm.git
+
+Navigate into the project directory:
+cd hotel-booking-form
+
+Open http://localhost:3000 with your browser to see the result.
